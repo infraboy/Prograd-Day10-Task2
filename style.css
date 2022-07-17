@@ -1,0 +1,58 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.OuterBox {
+    background-color: grey;
+    height: 320px;
+    width: 250px;
+    margin: 5% 40%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.SmartWatch {
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 70px;
+    height: 300px;
+    width: 250px;
+}
+
+#Time {
+    padding-top: 25%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#Day {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#SmallTime {
+    padding-top: 5%;
+    font-size: 25px;
+    font-weight: 450px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25%;
+    font-size: 25px;
+}
